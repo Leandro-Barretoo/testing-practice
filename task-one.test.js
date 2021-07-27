@@ -1,6 +1,4 @@
-// task1 tests
-
-const stringLength = require('./stringLength');
+const stringLength = require('./task-one');
 
 test('returns character count', () => {
     expect(stringLength('Leo')).toBe(3);
